@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 10,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "fontSize": 18,
+        "margin": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    List of Possible Locations
+  </Text>
+  <View
+    closeOnRowBeginSwipe={false}
+    closeOnRowPress={true}
+    closeOnScroll={true}
+    dataArray={undefined}
+    directionalDistanceChangeThreshold={2}
+    disableLeftSwipe={false}
+    disableRightSwipe={false}
+    leftOpenValue={0}
+    previewFirstRow={false}
+    recalculateHiddenLayout={false}
+    renderRow={[Function]}
+    rightOpenValue={0}
+    style={Object {}}
+    swipeToOpenPercent={50}
+    virtual={undefined}
+  />
+</View>
+`;

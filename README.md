@@ -1,2 +1,23 @@
-# SYDE322-SnapMap
-iOS mobile application to find landmarks based on an image.  Users can upload an image to locate uique travel locations based on photos. Uses image-based location retrieval to get confidence intervals for results. Uses Google Cloud Vision API for classification, Google Maps API for geocoding, Heroku for web server deployment, Firebase for authentication, and Microsoft Azure for database storage.
+# SnapMap
+## A SYDE 322 Project
+
+Using Google's Cloud Vision API, SnapMap allows you to upload a picture in the app to determine its location.
+
+### Quick Start
+```bash
+git clone https://github.com/andrewjungg/snapmap.git
+```
+
+### Client Code
+```bash
+cd snapmap/client/snapmap
+npm i
+npm start
+## if you have xcode downloaded you can run it in the emulator by pressing i
+```
+
+### Server Code
+```bash
+cd snapmap/server
+npm i
+```

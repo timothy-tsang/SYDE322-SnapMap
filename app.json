@@ -1,0 +1,6 @@
+{
+  "name": "snapmap-server",
+  "description": "snapmap-server",
+  "repository": "https://github.com/andrewjungg/snapmap-server",
+  "keywords": ["node", "express", "heroku"]
+}

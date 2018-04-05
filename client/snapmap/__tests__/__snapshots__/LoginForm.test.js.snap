@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "height": 1334,
+    }
+  }
+  virtual={undefined}
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    contentContainerStyle={undefined}
+    contentInset={
+      Object {
+        "bottom": 0,
+      }
+    }
+    enableAutoAutomaticScroll={true}
+    enableResetScrollToCoords={true}
+    extraHeight={75}
+    extraScrollHeight={0}
+    getScrollResponder={[Function]}
+    handleOnScroll={[Function]}
+    keyboardDismissMode="interactive"
+    keyboardOpeningTime={250}
+    keyboardShouldPersistTaps="handled"
+    keyboardSpace={0}
+    onScroll={[Function]}
+    resetKeyboardSpace={[Function]}
+    resetScrollToCoords={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    scrollEventThrottle={1}
+    scrollForExtraHeightOnAndroid={[Function]}
+    scrollToEnd={[Function]}
+    scrollToFocusedInput={[Function]}
+    scrollToPosition={[Function]}
+    showsVerticalScrollIndicator={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "flex": 1,
+        },
+        Object {
+          "margin": 15,
+        },
+      ]
+    }
+    viewIsInsideTabBar={false}
+    virtual={undefined}
+  >
+    <View>
+      <View
+        style={Object {}}
+        virtual={undefined}
+      >
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          collapsable={undefined}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "borderBottomWidth": 1,
+              "borderColor": "#D9D5DC",
+              "borderLeftWidth": 0,
+              "borderRightWidth": 0,
+              "borderTopWidth": 0,
+              "flexDirection": "row",
+              "marginLeft": 15,
+              "opacity": 1,
+            }
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          />
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            editable={true}
+            error={null}
+            onChangeText={[Function]}
+            placeholder="Email"
+            placeholderTextColor="#575757"
+            style={
+              Object {
+                "color": "#000",
+                "flex": 1,
+                "fontSize": 17,
+                "height": 50,
+                "lineHeight": 24,
+                "paddingLeft": 5,
+                "paddingRight": 5,
+                "top": 1.5,
+              }
+            }
+            underlineColorAndroid="rgba(0,0,0,0)"
+            value=""
+            virtual={undefined}
+          />
+        </View>
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          collapsable={undefined}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "borderBottomWidth": 1,
+              "borderColor": "#D9D5DC",
+              "borderLeftWidth": 0,
+              "borderRightWidth": 0,
+              "borderTopWidth": 0,
+              "flexDirection": "row",
+              "marginLeft": 0,
+              "opacity": 1,
+              "paddingLeft": 15,
+            }
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          />
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            error={null}
+            onChangeText={[Function]}
+            placeholder="Password"
+            placeholderTextColor="#575757"
+            secureTextEntry={true}
+            style={
+              Object {
+                "color": "#000",
+                "flex": 1,
+                "fontSize": 17,
+                "height": 50,
+                "lineHeight": 24,
+                "paddingLeft": 5,
+                "paddingRight": 5,
+                "top": 1.5,
+              }
+            }
+            underlineColorAndroid="rgba(0,0,0,0)"
+            value=""
+            virtual={undefined}
+          />
+        </View>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "backgroundColor": "#007aff",
+            "borderBottomWidth": null,
+            "borderColor": "#007aff",
+            "borderLeftWidth": null,
+            "borderRadius": 5,
+            "borderRightWidth": null,
+            "borderTopWidth": null,
+            "elevation": 2,
+            "flexDirection": "row",
+            "height": 45,
+            "justifyContent": "center",
+            "margin": 15,
+            "opacity": 1,
+            "paddingBottom": 6,
+            "paddingTop": 6,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 18,
+            }
+          }
+        >
+          Log In
+        </Text>
+      </View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "red",
+            "fontSize": 18,
+            "textAlign": "center",
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
