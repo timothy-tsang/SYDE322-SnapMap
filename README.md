@@ -1,0 +1,2 @@
+# SYDE322-SnapMap
+iOS mobile application to find landmarks based on an image.  Users can upload an image to locate uique travel locations based on photos. Uses image-based location retrieval to get confidence intervals for results. Uses Google Cloud Vision API for classification, Google Maps API for geocoding, Heroku for web server deployment, Firebase for authentication, and Microsoft Azure for database storage.
